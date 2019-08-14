@@ -4,7 +4,7 @@
 
 This repository contains Dart attempts on questions listed in the book.  please support Gayle by purchasing the [book](https://amzn.to/31vh6dk)
 
-<center><a target="_blank"  href="https://www.amazon.com/gp/product/0984782850/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0984782850&linkCode=as2&tag=mhadaily-20&linkId=d1bcc018971f5d63c7b0f3ad9bc15224"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0984782850&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=mhadaily-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mhadaily-20&l=am2&o=1&a=0984782850" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important; text-align:center;" /></center>
+<a target="_blank" href="https://amzn.to/31vh6dk">![Tux, the Linux mascot](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0984782850&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=mhadaily-20)</a>
 
 ## List of Coding Questions
 
