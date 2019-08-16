@@ -6,11 +6,15 @@ This repository contains Dart attempts on questions listed in the book.  please 
 
 <a target="_blank" href="https://amzn.to/31vh6dk">![Tux, the Linux mascot](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0984782850&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=mhadaily-20)</a>
 
+## Requirement
+
+- You need to install and run `dart version > 2.4`
+
 ## List of Coding Questions
 
 ### Chapter 1. Arrays and Strings
 
-- [] 1.1 - Is Unique
+- [x] 1.1 - Is Unique
 - [] 1.2 - Check Permutation
 - [] 1.3 - URLify
 - [] 1.4 - Palindrome Permutation
