@@ -1,7 +1,10 @@
 import 'constants.dart';
 
 class SolutionA {
-  /* Assumes string is ASCII. */
+  /* 
+    Assumes character set is ASCII (128 characters). 
+    O(n) approach
+  */
   static bool isUniqueChars(String str) {
     if (str.length > 128) {
       return false;
