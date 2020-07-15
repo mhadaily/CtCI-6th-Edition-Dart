@@ -1,3 +1,4 @@
+// ignore: avoid_classes_with_only_static_members
 class Question {
   static int numChars = 26;
 
@@ -7,18 +8,18 @@ class Question {
         print(prefix);
       }
     } else {
-      for (int i = 0; i < numChars; i++) {
-        String c = ithLetter(i);
+      for (var i = 0; i < numChars; i++) {
+        final c = ithLetter(i);
         printSortedStrings(remaining - 1, '$prefix$c');
       }
     }
   }
 
   static bool isInOrder(String s) {
-    bool isInOrder = true;
-    for (int i = 1; i < s.length; i++) {
-      int prev = (ithLetter((s[i - 1]).codeUnitAt(0))).codeUnitAt(0);
-      int curr = (ithLetter((s[i]).codeUnitAt(0))).codeUnitAt(0);
+    var isInOrder = true;
+    for (var i = 1; i < s.length; i++) {
+      final prev = (ithLetter((s[i - 1]).codeUnitAt(0))).codeUnitAt(0);
+      final curr = (ithLetter((s[i]).codeUnitAt(0))).codeUnitAt(0);
       if (prev > curr) {
         isInOrder = false;
       }
@@ -26,9 +27,7 @@ class Question {
     return isInOrder;
   }
 
-  static String ithLetter(int i) {
-    return String.fromCharCode(((('a').codeUnitAt(0)) + i));
-  }
+  static String ithLetter(int i) => String.fromCharCode(('a'.codeUnitAt(0)) + i);
 }
 
 void main() {

@@ -7,8 +7,8 @@ class Example {
       print(1);
       return 1;
     } else {
-      int prev = powersOf2(n ~/ 2);
-      int curr = prev * 2;
+      final prev = powersOf2(n ~/ 2);
+      final curr = prev * 2;
       print(curr);
       return curr;
     }
