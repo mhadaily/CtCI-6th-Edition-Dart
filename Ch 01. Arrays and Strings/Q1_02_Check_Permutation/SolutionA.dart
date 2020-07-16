@@ -6,6 +6,9 @@ class SolutionA {
   }
 
   static bool permutation(String s, String t) {
+    if (s.length != t.length) {
+      return false;
+    }
     return sort(s) == sort(t);
   }
 }
