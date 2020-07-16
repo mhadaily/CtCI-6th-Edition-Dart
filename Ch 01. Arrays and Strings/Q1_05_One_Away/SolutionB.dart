@@ -15,7 +15,7 @@ class SolutionB {
     var index2 = 0;
     var foundDifference = false;
     while (index2 < s2.length && index1 < s1.length) {
-      if (s1.codeUnitAt(index1) != s2.codeUnitAt(index2)) {
+      if (s1[index1] != s2[index2]) {
         /* Ensure that this is the first difference found.*/
         if (foundDifference) return false;
         foundDifference = true;

@@ -4,7 +4,7 @@ class SolutionA {
   static bool oneEditReplace(String s1, String s2) {
     var foundDifference = false;
     for (var i = 0; i < s1.length; i++) {
-      if (s1.codeUnitAt(i) != s2.codeUnitAt(i)) {
+      if (s1[i] != s2[i]) {
         // more than one difference
         if (foundDifference) {
           return false;
@@ -21,7 +21,7 @@ class SolutionA {
     var index1 = 0;
     var index2 = 0;
     while (index2 < s2.length && index1 < s1.length) {
-      if (s1.codeUnitAt(index1) != s2.codeUnitAt(index2)) {
+      if (s1[index1] != s2[index2]) {
         if (index1 != index2) {
           return false;
         }
