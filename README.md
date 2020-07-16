@@ -8,18 +8,34 @@ This repository contains Dart attempts on questions listed in the book.  please 
 
 ## Requirement
 
-- You need to install and run `dart version > 2.4`
+- You need to install and run `dart version > 2.7`
+
+### [analyzer](https://pub.dev/packages/analyzer)
+```sh
+dartanalyzer ./
+```
+
+### [test](https://pub.dev/packages/test)
+```sh
+pub run test ./
+```
+
+### [dartfmt](https://dart.dev/tools/dartfmt)
+```sh
+dartfmt -w ./
+```
+
 
 ## List of Coding Questions
 
 ### Chapter 1. Arrays and Strings
 
 - [x] 1.1 - Is Unique
-- [] 1.2 - Check Permutation
-- [] 1.3 - URLify
-- [] 1.4 - Palindrome Permutation
-- [] 1.5 - One Away
-- [] 1.6 - String Compression
+- [x] 1.2 - Check Permutation
+- [x] 1.3 - URLify
+- [x] 1.4 - Palindrome Permutation
+- [x] 1.5 - One Away
+- [x] 1.6 - String Compression
 - [] 1.7 - Rotate Matrix
 - [] 1.8 - Zero Matrix
 - [] 1.9 - String Rotation
@@ -140,7 +156,7 @@ This repository contains Dart attempts on questions listed in the book.  please 
 - [] 10.10 - Rank From Stream
 - [] 10.11 - Peaks And Valleys
 
-### Chapter 13. Java/Dart
+### Chapter 13. Dart
 
 - [] 13.1 - Coming
 
