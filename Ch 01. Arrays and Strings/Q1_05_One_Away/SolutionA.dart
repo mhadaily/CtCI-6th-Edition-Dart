@@ -1,8 +1,11 @@
+// Time: O(N), where n is time of shorter string
+
 class SolutionA {
   static bool oneEditReplace(String s1, String s2) {
     var foundDifference = false;
     for (var i = 0; i < s1.length; i++) {
       if (s1.codeUnitAt(i) != s2.codeUnitAt(i)) {
+        // more than one difference
         if (foundDifference) {
           return false;
         }
@@ -40,12 +43,5 @@ class SolutionA {
       return oneEditInsert(second, first);
     }
     return false;
-  }
-
-  static void main(List<String> args) {
-    const a = 'pse';
-    const b = 'pale';
-    final isOneEdit = oneEditAway(a, b);
-    print('$a , $b:  $isOneEdit');
   }
 }

@@ -1,3 +1,5 @@
+// Time: O(N), where n is time of shorter string
+
 class SolutionB {
   static bool oneEditAway(String first, String second) {
     /* Length checks. */
@@ -27,17 +29,5 @@ class SolutionB {
       index2++; // Always move pointer for longer string
     }
     return true;
-  }
-
-  static void main(List<String> args) {
-    const a = 'palee';
-    const b = 'pale';
-    final isOneEdit1 = oneEditAway(a, b);
-    print('$a, $b:  $isOneEdit1');
-
-    const c = 'pale';
-    const d = 'pkle';
-    final isOneEdit2 = oneEditAway(c, d);
-    print('$c,$d: $isOneEdit2');
   }
 }
