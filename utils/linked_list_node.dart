@@ -4,6 +4,15 @@ class LinkedListNode {
     setPrevious(p);
   }
 
+  factory LinkedListNode.createLinkedListFromArray(List<int> vals) {
+    final head = LinkedListNode(vals[0], null, null);
+    var current = head;
+    for (var i = 1; i < vals.length; i++) {
+      current = LinkedListNode(vals[i], null, current);
+    }
+    return head;
+  }
+
   LinkedListNode next;
   LinkedListNode prev;
   LinkedListNode last;
