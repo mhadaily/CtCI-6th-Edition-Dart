@@ -52,6 +52,31 @@ class Queue<T> {
   }
 }
 
+// Simple Queue with Array
+class QueueWithArray<T> {
+  final List<T> list = <T>[];
+
+  T get first => list.first;
+  T get last => list.last;
+
+  void add(T item) {
+    list.add(item);
+  }
+
+  T remove() {
+    if (first == null) {
+      throw Exception('No Such Element');
+    }
+    final t = first;
+    list.removeAt(0);
+    return t;
+  }
+
+  T peek() => first;
+
+  bool isEmpty() => list.isEmpty;
+}
+
 // Examples
 void main() {
   final Queue q1 = Queue<int>()..add(2)..add(3)..add(4)..add(5);
